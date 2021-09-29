@@ -1,6 +1,7 @@
 import { StyledHeader } from "./components/styles/StyledHeader";
 import { StyledSubHeader } from "./components/styles/StyledSubHeader";
 import { StyledText } from "./components/styles/StyledText";
+import { StyledTextInput } from "./components/styles/StyledTextInput";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts and
         more!
       </StyledText>
+      <StyledTextInput placeholder="Email address" />
     </div>
   );
 }
