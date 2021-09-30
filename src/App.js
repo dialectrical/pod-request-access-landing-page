@@ -2,6 +2,7 @@ import { StyledHeader } from "./components/styles/StyledHeader";
 import { StyledSubHeader } from "./components/styles/StyledSubHeader";
 import { StyledText } from "./components/styles/StyledText";
 import { StyledTextInput } from "./components/styles/StyledTextInput";
+import { StyledButton } from "./components/styles/StyledButton";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         more!
       </StyledText>
       <StyledTextInput placeholder="Email address" />
+      <StyledButton>Request Access</StyledButton>
     </div>
   );
 }
